@@ -1,0 +1,42 @@
+# Terraform working directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+tfplan
+tfplan.*
+plan.out
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Variable definition files may contain sensitive values
+*.tfvars
+*.tfvars.json
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# Environment files
+.env
+.env.*
+
+# Keep safe example files
+!*.tfvars.example
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
